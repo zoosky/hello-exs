@@ -1,4 +1,7 @@
-# Hello
+# Elixir, Phoenix and Vuejs cli 3
+
+    cd assets
+    yarn build
 
 To start your Phoenix server:
 

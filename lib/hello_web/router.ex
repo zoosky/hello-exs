@@ -16,7 +16,7 @@ defmodule HelloWeb.Router do
   scope "/", HelloWeb do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
+    get "/*anything", PageController, :index
   end
 
   # Other scopes may use custom stacks.
